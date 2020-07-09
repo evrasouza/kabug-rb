@@ -6,6 +6,7 @@ pipeline {
 			steps {
 				echo 'Building or Resolve Dependencies'
                 sh 'bundle install'
+                echo 'Building or Resolve Dependencies'
 			}
 		}
 		stage ('Test') {
